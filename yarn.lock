@@ -1895,6 +1895,15 @@
     "@strapi/utils" "4.0.0"
     sendmail "^1.6.1"
 
+"@strapi/provider-upload-cloudinary@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.0.0.tgz#6fe0bb27bce9e36620e0d2a411d7342ac3e1f003"
+  integrity sha512-kMDZrTxkz+AiC62UVjP0nK4Cgs9HtjY5uWAlPlzMQg+WIAadogk5S9MzrfVeY4b8yUZ2TyH9/5iHmMo9iVva8g==
+  dependencies:
+    "@strapi/utils" "4.0.0"
+    cloudinary "^1.25.1"
+    into-stream "^5.1.0"
+
 "@strapi/provider-upload-local@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@strapi/provider-upload-local/-/provider-upload-local-4.0.0.tgz#20c3281baddcaee7354f94e2e0b52b512c2cc419"
